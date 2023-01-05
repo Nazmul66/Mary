@@ -131,3 +131,47 @@ header nav h1 .color-it{
 /*==========================
      About section start
   ==========================*/
+.about-section{
+   padding: 130px 0;
+}
+.about-section .container{
+    background: #FFF8F3;
+    display: block !important;
+    padding: 131px 156px;
+    border-radius: 10px;
+}
+.about-section .container h2{
+    font-weight: 700;
+    color: #181818;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-section .container p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.four-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.four-section .details-info h3{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+.four-section .details-info h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    text-align: center;
+}
