@@ -132,7 +132,7 @@ header nav h1 .color-it{
      About section start
   ==========================*/
 .about-section{
-   padding: 130px 0;
+   padding: 130px 0 0;
 }
 .about-section .container{
     background: #FFF8F3;
@@ -174,4 +174,60 @@ header nav h1 .color-it{
     font-size: 20px;
     color: #474747;
     text-align: center;
+}
+
+/*==========================
+    What-i-do section start
+  ==========================*/
+.what-do-section{
+   padding: 130px 0;
+}
+.what-do-section .container{
+    display: block;
+}
+.what-do-section .container h2{
+    font-weight: 700;
+    color: #181818;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+} 
+.what-do-section .container p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 110px;
+} 
+
+.programmes{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 24px;
+}
+.programmes .function-details{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.programmes .function-details img{
+  margin-bottom: 30px;
+}
+.programmes .function-details h3{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.programmes .function-details p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    text-align: left;
+    padding: 0;
 }
