@@ -180,7 +180,7 @@ header nav h1 .color-it{
     What-i-do section start
   ==========================*/
 .what-do-section{
-   padding: 130px 0;
+   padding: 130px 0 0;
 }
 .what-do-section .container{
     display: block;
@@ -231,3 +231,79 @@ header nav h1 .color-it{
     text-align: left;
     padding: 0;
 }
+
+/*==========================
+    What-i-do section start
+  ==========================*/
+.resume-section{
+    padding: 130px 0;
+}
+.resume-section .container{
+    display: block; 
+}
+.resume-section .container h2{
+    font-weight: 700;
+    color: #181818;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 110px; 
+}
+
+.resume-details{
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+}
+.resume-details .resume-title h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom:30px;
+}
+.resume-title .result-info{
+    margin-top: 30px;
+}
+.resume-title .result-info h4{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-title .result-info span{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    display: block;
+    margin-bottom: 20px;
+}
+.resume-title .result-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.resume-title .result-info hr{
+   color: #D1D1D1;
+}
+
+.all-btn2{
+    margin-top: 40px;
+    text-align: center;
+}
+.all-btn2 .btn-primaryS{
+    padding: 16px 20px;
+    background: #FD6E0A;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px; 
+}
+.all-btn2 .btn-primaryS .fa-download{
+    margin-right: 14px;
+    font-size: 16px;
+}
+
+/*==========================
+     Contact section start
+  ==========================*/
