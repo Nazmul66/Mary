@@ -1,0 +1,54 @@
+/*==================
+     Google fonts
+ ===================*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/*================
+     Global CSS
+=================*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/*==========================
+     Header section start
+  ==========================*/
+header{
+  padding: 20px 0;
+}
+header nav{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav h1{
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+header nav h1 .color-it{
+   color: #FD6E0A;
+}
+.menu ul{
+    padding: 0;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 18px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.menu ul li .btn-hash{
+    padding: 14px 28px;
+    background: #FD6E0A;
+    color: #fff;
+    border-radius: 5px;   
+}
